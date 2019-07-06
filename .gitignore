@@ -1,0 +1,10 @@
+*.o
+*.log
+*.tmproj
+*~
+*#*
+*.DS_Store
+*.swp
+*.sass-cache
+*.pyc
+**/.idea/
