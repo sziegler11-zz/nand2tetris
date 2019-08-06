@@ -1,4 +1,4 @@
-package com.nand2tetris.ch7;
+package ch7;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,6 +16,7 @@ public class Parser {
 
     public Parser(String file) throws IOException {
         sc = new Scanner(new File(file));
+        currentCmd = sc.nextLine();
     }
 
     public boolean hasMoreCommands() {

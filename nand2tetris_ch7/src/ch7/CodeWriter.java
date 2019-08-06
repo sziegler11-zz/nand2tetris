@@ -1,4 +1,4 @@
-package com.nand2tetris.ch7;
+package ch7;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
